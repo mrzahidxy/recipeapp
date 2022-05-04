@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: royalblue;
+  text-align: center;
+  font-weight: 400;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-button {
+  background: royalblue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 15px;
+  color: lavender;
+  font-size: 12px;
+  transition: transform 250ms ease-in-out;
+}
+
+.search-button:hover {
+  background-color: lavender;
+  color: royalblue;
+  transform: scale(1.05);
+}
+
+.recpies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

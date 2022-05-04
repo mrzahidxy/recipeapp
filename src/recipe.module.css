@@ -1,0 +1,49 @@
+.container{
+  background-color: lavender ;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(71, 71, 71);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 60%;
+  margin-top: 35px;
+  transition: transform 250ms ease-in-out;
+}
+
+.recipe{
+display: flex;
+flex-direction: column;
+}
+
+.info{
+  max-width: 400px;
+  word-wrap: break-word;
+}
+
+.title{
+  color: royalblue;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container:hover  {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 90%;
+  }
+  .info{
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+}
